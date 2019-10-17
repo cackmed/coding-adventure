@@ -6,12 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Coding Adventure</title>
+    <link rel="stylesheet" href="./common/style.css">
 </head>
-
 <body>
-
-    <script type="module" src="app.js"></script>
+    <header>
+    <h1>Coding Adventure</h1>
+    </header>
+    <main>
+    <h2>Will you enter the world of Whitecoller work? A world in terror from the feared project deadlines?!!</h2>
+    <form id="user-creation">
+        <p id="text-prompt">
+        <label for="name"> Your Coders Name:</label>
+        <input id="name" name="name" required>
+        </p>
+        <fieldset>
+            <legend>Pick your Job</legend>
+            <p id="avatar-jobs">
+                <label>
+                    <input type="radio" name="job" required value="Intern">
+                    <img src="" alt="">
+                    Intern
+                </label>
+                <label>
+                    <input type="radio" name="job" required value="Software Engineer">
+                    <img src="" alt="">
+                    Software Engineer
+                </label>
+                <label>
+                    <input type="radio" name="job" required value="Web Developer">
+                    <img src="" alt="">
+                    Web Developer
+                </label>
+                <label>
+                    <input type="radio" name="job" required value="Full Stack Developer">
+                    <img src="" alt="">
+                    Full Stack Developer
+                </label>
+            </p>
+        </fieldset>
+    </form>    
+</main>
+    <script type="module" src="./home/app.js"></script>
 </body>
 
 </html>
