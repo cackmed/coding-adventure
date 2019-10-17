@@ -4,6 +4,7 @@ function createUserAvatar(formData) {
         job: formData.get('job'),
         time: 30,
         progress: 0,
+        stress: 0,
         completed: {}
     };
     return user;
@@ -13,6 +14,7 @@ export const makeNewUserAvatar = (formData) => ({
     job: formData.get('job'),
     time: 30,
     progress: 0,
+    stress: 0,
     completed: {}
 });
 export default createUserAvatar;
