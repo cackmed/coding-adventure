@@ -32,7 +32,7 @@ const weariness = {
 };
 const unexpectedError = {
     id: 'unexpectedError',
-    title: 'Unexpected error crashes your app',
+    title: 'An unexpected error crashes your app',
     map: {
         top:'40%',
         left: '24%'
@@ -41,7 +41,26 @@ const unexpectedError = {
     audio: 'placeholder',
     action: 'placeholder',
     description: 'placeholder',
-    choices: [{}]
+    choices: [{
+        id: 'debugger',
+        description: 'Drop a series of debuggers',
+        result: 'You drop a series of debuggers to figure out what went wrong, after a hour or so of debugging, your able to figure out that you had not properly closed your for loops. Thanks to that, you are able to make to start making progress again',
+        time: -1,
+        progress: 0,
+    }, {
+        id: 'placeholder',
+        description: 'placeholder',
+        result: 'placeholder',
+        time: 'placeholder',
+        progress: 'placeholder',
+    }, { 
+        id: 'placeholder',
+        description: 'placeholder',
+        result: 'placeholder',
+        time: '0',
+        progress: '0',
+
+    }]
 };
 const notSureWhatToDo = {
     id: 'notSureWhatToDo',
@@ -54,7 +73,25 @@ const notSureWhatToDo = {
     audio: 'placeholder',
     action: 'placeholder',
     description: 'placeholder',
-    choices: [{}]
+    choices: [{
+        id: 'placeholder',
+        description: 'placeholder',
+        result: 'placeholder',
+        time: '0',
+        progress: '0',
+    }, {
+        id: 'placeholder',
+        description: 'placeholder',
+        result: 'placeholder',
+        time: '0',
+        progress: '0',
+    }, {
+        id: 'placeholder',
+        description: 'placeholder',
+        result: 'placeholder',
+        time: '0',
+        progress: '0',
+    }]
 };
 
 
