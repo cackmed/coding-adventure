@@ -13,7 +13,7 @@ function loadSave() {
     }
 
     name.textContent = user.name;
-    avatar.src = '../assets/avatars/' + user.job + 'png';
+    avatar.src = '../assets/avatars/' + user.job + '.png';
     progress.textContent = user.progress;
     stress.textContent = user.stress;
 
