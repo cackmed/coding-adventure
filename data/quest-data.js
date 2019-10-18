@@ -104,3 +104,4 @@ const notSureWhatToDo = {
 };
 
 
+export default quests;
