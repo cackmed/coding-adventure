@@ -2,8 +2,8 @@ const weariness = {
     id: 'weariness',
     title: 'Your eyes start to droop',
     map: {
-        top:'40%',
-        left: '24%'
+        top:'80%',
+        left: '54%'
     },
     image: 'placeholder',
     audio: 'placeholder',
@@ -55,11 +55,11 @@ const unexpectedError = {
         id: 'placeholder',
         description: 'placeholder',
         result: 'placeholder',
-        time: 'placeholder',
+        time: '0',
         strss: 2,
-        progress: 'placeholder',
+        progress: '0',
     }, { 
-        id: 'placeholder',
+        id: 'placeholder1',
         description: 'placeholder',
         result: 'placeholder',
         time: '0',
@@ -68,33 +68,33 @@ const unexpectedError = {
 
     }]
 };
-const notSureWhatToDo = {
-    id: 'notSureWhatToDo',
-    title: 'You run into a problem your not equiped to handle',
+const stuckInCommitLand = {
+    id: 'stuckInCommitLand',
+    title: 'You find yourself stuck in commit land',
     map: {
-        top:'40%',
-        left: '24%'
+        top:'20%',
+        left: '74%'
     },
     image: 'placeholder',
     audio: 'placeholder',
     action: 'placeholder',
     description: 'placeholder',
     choices: [{
-        id: 'placeholder',
+        id: 'placeholder3',
         description: 'placeholder',
         result: 'placeholder',
         time: '0',
         strss: 2,
         progress: '0',
     }, {
-        id: 'placeholder',
+        id: 'placeholder4',
         description: 'placeholder',
         result: 'placeholder',
         time: '0',
         strss: 2,
         progress: '0',
     }, {
-        id: 'placeholder',
+        id: 'placeholder5',
         description: 'placeholder',
         result: 'placeholder',
         time: '0',
@@ -102,6 +102,6 @@ const notSureWhatToDo = {
         progress: '0',
     }]
 };
-
+const quests = [weariness, unexpectedError, stuckInCommitLand];
 
 export default quests;
