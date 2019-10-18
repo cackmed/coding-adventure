@@ -16,7 +16,7 @@ if (!quest) {
 }
 
 const title = document.getElementById('title');
-const image = document.getElementById('image')
+const image = document.getElementById('image');
 const audio = document.getElementById('audio');
 const description = document.getElementById('description');
 const choiceForm = document.getElementById('choice-form');
