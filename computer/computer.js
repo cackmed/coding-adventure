@@ -11,7 +11,7 @@ const nav = document.getElementById('quests');
 
 for (let i = 0; i < quest.length; i++) {
     const quest = quest[i];
-    let questDisplay = null
+    let questDisplay = null;
     if (user.completed[quest.id]) {
         questDisplay = finishedWork(quest);
     }
